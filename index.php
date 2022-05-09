@@ -1,5 +1,7 @@
 <?php
 
-for($i=5;$i<16;$i++)
-    echo("$i<br>");
+$num1=8;
+$num2=9;
+$res=$num1+$num2 ;
+echo($res."<br>");
 ?>
