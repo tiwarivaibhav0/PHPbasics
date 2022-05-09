@@ -1,14 +1,41 @@
 <?php
 
-$grade=89;
-if($grade>60)
-   echo("First Division");
-if($grade>44&&$grade<60)
-   echo("second Division");   
-if($grade>32&&$grade<45)
-   echo("third Division");  
-if($grade<33)
-   echo("fail");
+$num=3;
+
+switch ($num){
+        case 1:
+        echo ("Monday");
+        break;
+        case 2:
+        echo ("Tuesday");
+        break;
+        case 3:
+        echo ("Wednesday");
+        break;
+        case 4:
+        echo ("Thursday");
+        break;
+        case 5:
+        echo ("Friday");
+        break;
+        case 6:
+        echo ("Saturday");
+        break;
+        case 7:
+        echo ("Sunday");
+        break;
+        default:
+        echo("invalid number");
+
+
+
+
+
+
+
+
+}
+
 
 
 
