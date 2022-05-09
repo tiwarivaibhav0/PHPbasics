@@ -1,40 +1,12 @@
 <?php
 
-$num=3;
+$num=6;
+$mul=1;
+for($i=$num;$i>1;$i--)
+    $mul*=$i;
 
-switch ($num){
-        case 1:
-        echo ("Monday");
-        break;
-        case 2:
-        echo ("Tuesday");
-        break;
-        case 3:
-        echo ("Wednesday");
-        break;
-        case 4:
-        echo ("Thursday");
-        break;
-        case 5:
-        echo ("Friday");
-        break;
-        case 6:
-        echo ("Saturday");
-        break;
-        case 7:
-        echo ("Sunday");
-        break;
-        default:
-        echo("invalid number");
-
-
-
-
-
-
-
-
-}
+    echo($mul);
+   
 
 
 
